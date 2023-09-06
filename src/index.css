@@ -83,7 +83,7 @@ body {
 
 .selected,
 .sidebar li:hover {
-  background-color: grey;
+  background-color: var(--color-lightest);
 }
 
 .sidebar li img {
