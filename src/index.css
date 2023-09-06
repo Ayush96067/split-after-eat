@@ -23,7 +23,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #919c92;
+  background: linear-gradient(
+    156deg,
+    rgb(3 1 35) 10%,
+    rgb(14 9 88) 30%,
+    rgb(29 42 209 / 71%) 63%,
+    rgba(35, 27, 199, 1) 94%
+  );
 }
 .head {
   /* display: flex; */
