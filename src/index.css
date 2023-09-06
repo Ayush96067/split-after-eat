@@ -28,9 +28,9 @@ body {
 .head {
   /* display: flex; */
   position: relative;
-  font-size: 100px;
+  font-size: 70px;
   top: -90px;
-  left: 90px;
+  left: 195px;
   color: rgb(247, 243, 243);
   text-shadow: 6px 7px 26px #070000;
   font-family: "Kanit", sans-serif;
@@ -39,7 +39,7 @@ body {
   min-height: 66vh;
   display: grid;
   grid-template-columns: 34rem 44rem;
-  column-gap: 4rem;
+  column-gap: 1rem;
   align-items: start;
   backdrop-filter: blur(10px);
   background-color: rgb(235 241 245);
@@ -66,24 +66,24 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
 .sidebar li {
   display: grid;
-  grid-template-columns: 4.8rem 1fr auto;
+  grid-template-columns: 3.8rem 1fr auto;
   align-items: center;
-  column-gap: 1.6rem;
+  column-gap: 0.6rem;
 
-  padding: 1.2rem;
+  padding: 1.3rem;
   border-radius: 7px;
   transition: 0.5s;
 }
 
 .selected,
 .sidebar li:hover {
-  background-color: var(--color-lightest);
+  background-color: grey;
 }
 
 .sidebar li img {
